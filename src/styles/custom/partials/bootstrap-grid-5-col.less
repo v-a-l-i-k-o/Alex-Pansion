@@ -1,0 +1,25 @@
+@import '../../bootstrap/parts/variables.less';
+@import '../../bootstrap/mixins/grid-framework.less';
+//
+// Grid system 5-col
+// --------------------------------------------------
+
+// CUSTOMIZATION: Columns
+
+@grid-columns: 5;
+
+.make-5th-grid-columns();
+
+.make-grid(xs-5th);
+
+@media (min-width: @screen-sm-min) {
+  .make-grid(sm-5th);
+}
+
+@media (min-width: @screen-md-min) {
+  .make-grid(md-5th);
+}
+
+@media (min-width: @screen-lg-min) {
+  .make-grid(lg-5th);
+}

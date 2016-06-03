@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valiko",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-autoprefixer": "latest",
+    "imagemin-pngquant": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-changed": "latest",
+    "browser-sync": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-rigger": "latest",
+    "gulp-uglify": "latest",
+    "gulp-less": "latest",
+    "rimraf": "latest",
+    "gulp": "latest"
+  }
+}
